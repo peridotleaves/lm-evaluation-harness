@@ -1,0 +1,10 @@
+"dataset_kwargs":
+  "data_dir": "/data/healthy-ml/scratch/eileenp/Dialect_Bias/data/mmlu/A_transforms/all_subfolders/world_religions"
+  "trust_remote_code": "false"
+"dataset_name": "world_religions"
+"description": "The following are multiple choice questions (with answers) about world\
+  \ religions.\n\n"
+"include": "_A_template_yaml"
+"tag": "mmlu_A_generative_humanities"
+"task": "mmlu_A_generative_world_religions"
+"task_alias": "world religions"

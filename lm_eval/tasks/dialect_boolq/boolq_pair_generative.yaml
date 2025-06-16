@@ -1,0 +1,40 @@
+task: boolq_pair_generative
+dataset_path: csv
+dataset_kwargs:
+  data_dir: /data/healthy-ml/scratch/eileenp/Dialect_Bias/data/boolq/pair_transforms/combined
+  trust_remote_code: false
+output_type: generate_until
+# training_split: train
+# validation_split: validation
+test_split: test
+fewshot_config:
+  sampler: first_n
+doc_to_text: "{{passage}}\nQuestion: {{transformed_text}}?\nPlease respond with yes or no:"
+doc_to_target: answer
+# doc_to_target: "['yes', 'no']{{[answer]}}"
+generation_kwargs:
+  until:
+    - "</s>"
+    - "\n"
+metric_list:
+  - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+    ignore_punctuation: true
+    ignore_case: true
+filter_list:
+  - name: get_response
+    filter:
+      # Filter everything after the first break line
+      - function: "regex"
+        regex_pattern: "^(.*?)(?=\\n|$)"
+      # Remove leading white spaces
+      - function: remove_whitespace
+      # function to ignore right white spaces or line breaks
+      - function: "regex"
+        regex_pattern: "^(.*?)\\s*$"
+      - function: take_first
+should_decontaminate: true
+doc_to_decontamination_query: passage
+metadata:
+  version: 1.0

@@ -1,0 +1,10 @@
+"dataset_kwargs":
+  "data_dir": "/data/healthy-ml/scratch/eileenp/Dialect_Bias/data/mmlu/A_transforms/all_subfolders/conceptual_physics"
+  "trust_remote_code": "false"
+"dataset_name": "conceptual_physics"
+"description": "The following are multiple choice questions (with answers) about conceptual\
+  \ physics.\n\n"
+"include": "_A_template_yaml"
+"tag": "mmlu_A_stem"
+"task": "mmlu_A_conceptual_physics"
+"task_alias": "conceptual physics"

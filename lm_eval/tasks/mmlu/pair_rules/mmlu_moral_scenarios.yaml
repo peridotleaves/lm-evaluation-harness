@@ -1,0 +1,10 @@
+"dataset_kwargs":
+  "data_dir": "/data/healthy-ml/scratch/eileenp/Dialect_Bias/data/mmlu/pair_transforms/all_subfolders/moral_scenarios"
+  "trust_remote_code": "false"
+"dataset_name": "moral_scenarios"
+"description": "The following are multiple choice questions (with answers) about moral\
+  \ scenarios.\n\n"
+"include": "_pair_template_yaml"
+"tag": "mmlu_pair_humanities"
+"task": "mmlu_pair_moral_scenarios"
+"task_alias": "moral scenarios"

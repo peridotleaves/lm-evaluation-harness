@@ -1,0 +1,10 @@
+"dataset_kwargs":
+  "data_dir": "/data/healthy-ml/scratch/eileenp/Dialect_Bias/data/mmlu/original_subset/all_subfolders/college_medicine"
+  "trust_remote_code": "false"
+"dataset_name": "college_medicine"
+"description": "The following are multiple choice questions (with answers) about college\
+  \ medicine.\n\n"
+"include": "_orig_generative_template_yaml"
+"tag": "mmlu_orig_generative_other"
+"task": "mmlu_orig_generative_college_medicine"
+"task_alias": "college medicine"

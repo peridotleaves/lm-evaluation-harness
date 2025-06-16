@@ -1,0 +1,37 @@
+task: sciq_A_generative
+dataset_path: csv
+dataset_kwargs:
+  data_dir: /data/healthy-ml/scratch/eileenp/Dialect_Bias/data/sciq/A_transforms/combined
+  trust_remote_code: false
+output_type: generate_until
+# training_split: train
+# validation_split: validation
+test_split: test
+doc_to_text: "{{support}}\nQuestion: {{transformed_text}}\nPlease respond with one of exactly {{[distractor1, distractor2, distractor3, correct_answer]}}:"
+doc_to_target: correct_answer
+should_decontaminate: true
+doc_to_decontamination_query: "{{support}} {{transformed_text}}"
+generation_kwargs:
+  until:
+    - "</s>"
+    - "\n"
+metric_list:
+  - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+    ignore_punctuation: true
+    ignore_case: true
+filter_list:
+  - name: get_response
+    filter:
+      # Filter everything after the first break line
+      - function: "regex"
+        regex_pattern: "^(.*?)(?=\\n|$)"
+      # Remove leading white spaces
+      - function: remove_whitespace
+      # function to ignore right white spaces or line breaks
+      - function: "regex"
+        regex_pattern: "^(.*?)\\s*$"
+      - function: take_first
+metadata:
+  version: 1.0

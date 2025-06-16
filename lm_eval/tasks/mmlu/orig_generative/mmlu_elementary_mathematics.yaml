@@ -1,0 +1,10 @@
+"dataset_kwargs":
+  "data_dir": "/data/healthy-ml/scratch/eileenp/Dialect_Bias/data/mmlu/original_subset/all_subfolders/elementary_mathematics"
+  "trust_remote_code": "false"
+"dataset_name": "elementary_mathematics"
+"description": "The following are multiple choice questions (with answers) about elementary\
+  \ mathematics.\n\n"
+"include": "_orig_generative_template_yaml"
+"tag": "mmlu_orig_generative_stem"
+"task": "mmlu_orig_generative_elementary_mathematics"
+"task_alias": "elementary mathematics"

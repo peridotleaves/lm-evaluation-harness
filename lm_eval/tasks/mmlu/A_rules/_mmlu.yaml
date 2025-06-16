@@ -1,0 +1,32 @@
+group: mmlu_A
+group_alias: mmlu rules
+task:
+  - group: stem
+    task:
+      - mmlu_A_stem
+    aggregate_metric_list:
+      - metric: acc
+        weight_by_size: True
+  - group: other
+    task:
+      - mmlu_A_other
+    aggregate_metric_list:
+      - metric: acc
+        weight_by_size: True
+  - group: social sciences
+    task:
+      - mmlu_A_social_sciences
+    aggregate_metric_list:
+      - metric: acc
+        weight_by_size: True
+  - group: humanities
+    task:
+      - mmlu_A_humanities
+    aggregate_metric_list:
+      - metric: acc
+        weight_by_size: True
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: True
+metadata:
+  version: 2

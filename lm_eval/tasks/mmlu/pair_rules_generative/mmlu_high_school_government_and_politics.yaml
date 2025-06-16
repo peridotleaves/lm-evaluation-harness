@@ -1,0 +1,10 @@
+"dataset_kwargs":
+  "data_dir": "/data/healthy-ml/scratch/eileenp/Dialect_Bias/data/mmlu/pair_transforms/all_subfolders/high_school_government_and_politics"
+  "trust_remote_code": "false"
+"dataset_name": "high_school_government_and_politics"
+"description": "The following are multiple choice questions (with answers) about high\
+  \ school government and politics.\n\n"
+"include": "_pair_template_yaml"
+"tag": "mmlu_pair_generative_social_sciences"
+"task": "mmlu_pair_generative_high_school_government_and_politics"
+"task_alias": "high school government and politics"

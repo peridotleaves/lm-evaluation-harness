@@ -1,0 +1,10 @@
+"dataset_kwargs":
+  "data_dir": "/data/healthy-ml/scratch/eileenp/Dialect_Bias/data/mmlu/dialect_oblig_transforms/all_subfolders/electrical_engineering"
+  "trust_remote_code": "false"
+"dataset_name": "electrical_engineering"
+"description": "The following are multiple choice questions (with answers) about electrical\
+  \ engineering.\n\n"
+"include": "_dialect_template_yaml"
+"tag": "mmlu_dialect_oblig_stem"
+"task": "mmlu_dialect_oblig_electrical_engineering"
+"task_alias": "electrical engineering"

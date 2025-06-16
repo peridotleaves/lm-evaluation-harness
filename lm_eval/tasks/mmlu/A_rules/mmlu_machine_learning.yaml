@@ -1,0 +1,10 @@
+"dataset_kwargs":
+  "data_dir": "/data/healthy-ml/scratch/eileenp/Dialect_Bias/data/mmlu/A_transforms/all_subfolders/machine_learning"
+  "trust_remote_code": "false"
+"dataset_name": "machine_learning"
+"description": "The following are multiple choice questions (with answers) about machine\
+  \ learning.\n\n"
+"include": "_A_template_yaml"
+"tag": "mmlu_A_stem"
+"task": "mmlu_A_machine_learning"
+"task_alias": "machine learning"

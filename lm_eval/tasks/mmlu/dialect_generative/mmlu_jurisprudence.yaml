@@ -1,0 +1,10 @@
+"dataset_kwargs":
+  "data_dir": "/data/healthy-ml/scratch/eileenp/Dialect_Bias/data/mmlu/dialect_transforms/all_subfolders/jurisprudence"
+  "trust_remote_code": "false"
+"dataset_name": "jurisprudence"
+"description": "The following are multiple choice questions (with answers) about jurisprudence.\n\
+  \n"
+"include": "_dialect_template_yaml"
+"tag": "mmlu_dialect_humanities"
+"task": "mmlu_dialect_jurisprudence"
+"task_alias": "jurisprudence"

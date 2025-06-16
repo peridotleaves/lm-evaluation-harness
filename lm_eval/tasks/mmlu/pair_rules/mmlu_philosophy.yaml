@@ -1,0 +1,10 @@
+"dataset_kwargs":
+  "data_dir": "/data/healthy-ml/scratch/eileenp/Dialect_Bias/data/mmlu/pair_transforms/all_subfolders/philosophy"
+  "trust_remote_code": "false"
+"dataset_name": "philosophy"
+"description": "The following are multiple choice questions (with answers) about philosophy.\n\
+  \n"
+"include": "_pair_template_yaml"
+"tag": "mmlu_pair_humanities"
+"task": "mmlu_pair_philosophy"
+"task_alias": "philosophy"

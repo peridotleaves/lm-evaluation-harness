@@ -1,0 +1,10 @@
+"dataset_kwargs":
+  "data_dir": "/data/healthy-ml/scratch/eileenp/Dialect_Bias/data/mmlu/dialect_oblig_transforms/all_subfolders/sociology"
+  "trust_remote_code": "false"
+"dataset_name": "sociology"
+"description": "The following are multiple choice questions (with answers) about sociology.\n\
+  \n"
+"include": "_dialect_template_yaml"
+"tag": "mmlu_dialect_oblig_generative_social_sciences"
+"task": "mmlu_dialect_oblig_generative_sociology"
+"task_alias": "sociology"

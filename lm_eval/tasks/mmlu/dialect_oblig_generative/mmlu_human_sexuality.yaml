@@ -1,0 +1,10 @@
+"dataset_kwargs":
+  "data_dir": "/data/healthy-ml/scratch/eileenp/Dialect_Bias/data/mmlu/dialect_oblig_transforms/all_subfolders/human_sexuality"
+  "trust_remote_code": "false"
+"dataset_name": "human_sexuality"
+"description": "The following are multiple choice questions (with answers) about human\
+  \ sexuality.\n\n"
+"include": "_dialect_template_yaml"
+"tag": "mmlu_dialect_oblig_generative_social_sciences"
+"task": "mmlu_dialect_oblig_generative_human_sexuality"
+"task_alias": "human sexuality"

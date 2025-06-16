@@ -1,0 +1,3 @@
+task: squadv2_A_rules
+class: !function task_transformed.SQuAD2
+

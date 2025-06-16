@@ -1,0 +1,38 @@
+group: mmlu_pair_generative
+group_alias: mmlu pair rules (generative)
+task:
+  - group: stem
+    task:
+      - mmlu_pair_generative_stem
+    aggregate_metric_list:
+      - metric: exact_match
+        weight_by_size: true
+        filter_list: get_response
+  - group: other
+    task:
+      - mmlu_pair_generative_other
+    aggregate_metric_list:
+      - metric: exact_match
+        weight_by_size: true
+        filter_list: get_response
+  - group: social sciences
+    task:
+      - mmlu_pair_generative_social_sciences
+    aggregate_metric_list:
+      - metric: exact_match
+        weight_by_size: true
+        filter_list: get_response
+  - group: humanities
+    task:
+      - mmlu_pair_generative_humanities
+    aggregate_metric_list:
+      - metric: exact_match
+        weight_by_size: true
+        filter_list: get_response
+aggregate_metric_list:
+  - aggregation: mean
+    metric: exact_match
+    weight_by_size: true
+    filter_list: get_response
+metadata:
+  version: 3

@@ -1,0 +1,10 @@
+"dataset_kwargs":
+  "data_dir": "/data/healthy-ml/scratch/eileenp/Dialect_Bias/data/mmlu/A_transforms/all_subfolders/medical_genetics"
+  "trust_remote_code": "false"
+"dataset_name": "medical_genetics"
+"description": "The following are multiple choice questions (with answers) about medical\
+  \ genetics.\n\n"
+"include": "_A_template_yaml"
+"tag": "mmlu_A_generative_other"
+"task": "mmlu_A_generative_medical_genetics"
+"task_alias": "medical genetics"

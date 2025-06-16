@@ -1,0 +1,10 @@
+"dataset_kwargs":
+  "data_dir": "/data/healthy-ml/scratch/eileenp/Dialect_Bias/data/mmlu/pair_transforms/all_subfolders/professional_psychology"
+  "trust_remote_code": "false"
+"dataset_name": "professional_psychology"
+"description": "The following are multiple choice questions (with answers) about professional\
+  \ psychology.\n\n"
+"include": "_pair_template_yaml"
+"tag": "mmlu_pair_social_sciences"
+"task": "mmlu_pair_professional_psychology"
+"task_alias": "professional psychology"

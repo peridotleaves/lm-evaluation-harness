@@ -1,0 +1,10 @@
+"dataset_kwargs":
+  "data_dir": "/data/healthy-ml/scratch/eileenp/Dialect_Bias/data/mmlu/dialect_oblig_transforms/all_subfolders/business_ethics"
+  "trust_remote_code": "false"
+"dataset_name": "business_ethics"
+"description": "The following are multiple choice questions (with answers) about business\
+  \ ethics.\n\n"
+"include": "_dialect_template_yaml"
+"tag": "mmlu_dialect_oblig_other"
+"task": "mmlu_dialect_oblig_business_ethics"
+"task_alias": "business ethics"

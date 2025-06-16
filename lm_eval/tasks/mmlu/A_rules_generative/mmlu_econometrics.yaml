@@ -1,0 +1,10 @@
+"dataset_kwargs":
+  "data_dir": "/data/healthy-ml/scratch/eileenp/Dialect_Bias/data/mmlu/A_transforms/all_subfolders/econometrics"
+  "trust_remote_code": "false"
+"dataset_name": "econometrics"
+"description": "The following are multiple choice questions (with answers) about econometrics.\n\
+  \n"
+"include": "_A_template_yaml"
+"tag": "mmlu_A_generative_social_sciences"
+"task": "mmlu_A_generative_econometrics"
+"task_alias": "econometrics"

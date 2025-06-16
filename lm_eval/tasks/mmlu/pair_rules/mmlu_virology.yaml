@@ -1,0 +1,10 @@
+"dataset_kwargs":
+  "data_dir": "/data/healthy-ml/scratch/eileenp/Dialect_Bias/data/mmlu/pair_transforms/all_subfolders/virology"
+  "trust_remote_code": "false"
+"dataset_name": "virology"
+"description": "The following are multiple choice questions (with answers) about virology.\n\
+  \n"
+"include": "_pair_template_yaml"
+"tag": "mmlu_pair_other"
+"task": "mmlu_pair_virology"
+"task_alias": "virology"

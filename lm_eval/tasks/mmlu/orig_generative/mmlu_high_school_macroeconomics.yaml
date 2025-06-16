@@ -1,0 +1,10 @@
+"dataset_kwargs":
+  "data_dir": "/data/healthy-ml/scratch/eileenp/Dialect_Bias/data/mmlu/original_subset/all_subfolders/high_school_macroeconomics"
+  "trust_remote_code": "false"
+"dataset_name": "high_school_macroeconomics"
+"description": "The following are multiple choice questions (with answers) about high\
+  \ school macroeconomics.\n\n"
+"include": "_orig_generative_template_yaml"
+"tag": "mmlu_orig_generative_social_sciences"
+"task": "mmlu_orig_generative_high_school_macroeconomics"
+"task_alias": "high school macroeconomics"

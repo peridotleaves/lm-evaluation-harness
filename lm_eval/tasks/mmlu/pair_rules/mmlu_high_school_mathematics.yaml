@@ -1,0 +1,10 @@
+"dataset_kwargs":
+  "data_dir": "/data/healthy-ml/scratch/eileenp/Dialect_Bias/data/mmlu/pair_transforms/all_subfolders/high_school_mathematics"
+  "trust_remote_code": "false"
+"dataset_name": "high_school_mathematics"
+"description": "The following are multiple choice questions (with answers) about high\
+  \ school mathematics.\n\n"
+"include": "_pair_template_yaml"
+"tag": "mmlu_pair_stem"
+"task": "mmlu_pair_high_school_mathematics"
+"task_alias": "high school mathematics"
